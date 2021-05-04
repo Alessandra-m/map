@@ -55,9 +55,10 @@ for i in range(2,8):
 folium.Marker(location=[45.0348, 38.975],
               popup = '<strong>l',
               tooltip=tooltip,
-              icon = ShelterIcon).add_to(m)
+              icon = <i class="fas fa-dog"></i>).add_to(m)
 
-              
+
+#Формирование границы             
 folium.GeoJson(border, name = 'Krasnodar').add_to(m)
 
 m.save("m.html")
