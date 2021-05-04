@@ -57,6 +57,7 @@ folium.Marker(location=[45.0348, 38.975],
               tooltip=tooltip,
               icon = logoIcon).add_to(m)
 
+
 folium.GeoJson(border, name = 'Krasnodar').add_to(m)
 
 m.save("m.html")
