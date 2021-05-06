@@ -61,7 +61,7 @@ folium.Marker(location=[45.0348, 38.975],
 #Формирование границы             
 folium.GeoJson(border, name = 'Krasnodar').add_to(m)
 
-print('ILY')
+print('ILYT')
 
 m.save("m.html")
 
