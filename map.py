@@ -9,6 +9,7 @@ import webbrowser
 #Создание карты 
 m = folium.Map(location=[45.0448, 38.976], zoom_start = 12)
 
+
 #Загрузка данных 
 wb = openpyxl.reader.excel.load_workbook(filename="data.xlsx")
 
@@ -25,7 +26,7 @@ for i in range(2,49):
     adds = sheet_zero['B'+str(i)].value
     tel = sheet_zero['D'+str(i)].value
     folium.Marker(location=[sheet_zero['E'+str(i)].value, sheet_zero['F'+str(i)].value],
-                  popup = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
+                  popup(max_width=200) = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
                   tooltip = tooltip,
                   icon = vetIcon).add_to(m)
 
@@ -52,28 +53,30 @@ for i in range(2,8):
     folium.Marker(location = [sheet_two['E'+str(i)].value, sheet_two['F'+str(i)].value],
                   popup = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
                   tooltip = tooltip,
-                  icon = priutIcon).add_to(m)
+                  icon = priutIcon,).add_to(m)
 
 
 #Формирование границы Краснодара
 border = os.path.join('Информация','border.json')            
 folium.GeoJson(border, name = 'Krasnodar', 
+               control = False,
                style_function = lambda feature: {
                                         "fillColor": "#ffff00",
                                         "color": "black",
                                         "weight": 1.5,
-                                        "dashArray": "4, 4",}).add_to(m)
+                                        "dashArray": "4, 4"}).add_to(m)
+
 
 #Поисковик
 with open('searcher.json', 'r', encoding = 'utf-8') as f:
     FC = json.load(f)
 
-geojson_obj = folium.GeoJson(FC, show = False).add_to(m)
+geojson_obj = folium.GeoJson(FC, name = "Poisk", show = False).add_to(m)
 
 plugins.Search(geojson_obj,position = 'topleft',
                            search_zoom = 17,
                            search_label = 'name',
-                           geom_type = 'Point').add_to(m)
+                           geom_type = 'Point',).add_to(m)
 
 #Контроль уровней
 folium.LayerControl().add_to(m)
