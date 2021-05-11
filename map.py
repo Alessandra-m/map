@@ -4,6 +4,7 @@ from folium.plugins import Search
 import openpyxl
 import json
 import os
+import webbrowser
 
 #Создание карты 
 m = folium.Map(location=[45.0448, 38.976], zoom_start = 12)
@@ -15,7 +16,7 @@ wb = openpyxl.reader.excel.load_workbook(filename="data.xlsx")
 tooltip = 'Информация'
 
 #Geojson Data (границы Краснодара)
-border = os.path.join('border.json')
+border = os.path.join('Информация','border.json')
 
 #Расстановка маркеров вет. клиник 
 wb.active = 0
@@ -70,4 +71,5 @@ plugins.Search(geojson_obj,position='topleft',
                            geom_type='Point').add_to(m)
 
 m.save("m.html")
+webbrowser.open("m.html")
 

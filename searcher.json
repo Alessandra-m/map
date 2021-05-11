@@ -1,21 +1,121 @@
 {
     "type": "FeatureCollection",
     "features": [
-    {"type": "Feature","properties": {"name": "Vet" },"geometry": {"type": "Point","coordinates": [38.937515, 45.113834 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника ВетПомощь" },"geometry": {"type": "Point","coordinates": [ 45.038740 , 38.963058 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Лапа Помощи\"" },"geometry": {"type": "Point","coordinates": [ 45.067518 , 38.958300 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Доверие\"" },"geometry": {"type": "Point","coordinates": [ 45.080308 , 38.976254 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Друг\"" },"geometry": {"type": "Point","coordinates": [ 45.072789 , 38.976773 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"ВитВет\"" },"geometry": {"type": "Point","coordinates": [ 45.072235 , 38.982009 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"ДЖиМ\"" },"geometry": {"type": "Point","coordinates": [ 45.088839 , 38.979097 ] }},  
-    
-    {"type": "Feature","properties": {"name": "Ветеринарная клиника"  },"geometry": {"type": "Point","coordinates": [ 45.044368 , 38.931976 ] }}
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Здоровье" },"geometry": {"type": "Point","coordinates": [ 38.937515 , 45.113834 ] }},  
+
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ВетПомощь" },"geometry": {"type": "Point","coordinates": [ 38.963058 , 45.038740 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Лапа Помощи" },"geometry": {"type": "Point","coordinates": [ 38.958300 , 45.067518 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Доверие" },"geometry": {"type": "Point","coordinates": [ 38.976254 , 45.080308 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Друг" },"geometry": {"type": "Point","coordinates": [ 38.976773 , 45.072789 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ВитВет" },"geometry": {"type": "Point","coordinates": [ 38.982009 , 45.072235 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ДЖиМ" },"geometry": {"type": "Point","coordinates": [ 38.979097 , 45.088839 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника" },"geometry": {"type": "Point","coordinates": [ 38.931976 , 45.044368 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Спасатель" },"geometry": {"type": "Point","coordinates": [ 39.010628 , 45.094040 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Вентура" },"geometry": {"type": "Point","coordinates": [ 39.009232 , 45.072760 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Специализированнная Ветеринарная Клиника НА БАБУШКИНА" },"geometry": {"type": "Point","coordinates": [ 38.957757 , 45.049271 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника КРАСНАЯ ПАНДА" },"geometry": {"type": "Point","coordinates": [ 38.948893 , 45.072157 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Котопёс" },"geometry": {"type": "Point","coordinates": [ 39.005669 , 45.098395 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Доверие Ветеринарная клиника" },"geometry": {"type": "Point","coordinates": [ 39.014789 , 45.046965 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ВетУчасток" },"geometry": {"type": "Point","coordinates": [ 39.024650 , 45.115754 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Слон" },"geometry": {"type": "Point","coordinates": [ 38.014998 , 45.053197 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Доктор Зверев" },"geometry": {"type": "Point","coordinates": [ 38.980780 , 45.069612 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ВЕРНЫЙ ДРУГ" },"geometry": {"type": "Point","coordinates": [ 39.008007 , 45.065535 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Экстренная ветеринарная помощь клиники НА БАБУШКИНА" },"geometry": {"type": "Point","coordinates": [ 38.957764 , 45.049282 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Добрые руки" },"geometry": {"type": "Point","coordinates": [ 39.034132 , 45.056322 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Биосфера" },"geometry": {"type": "Point","coordinates": [ 38.990049 , 45.028848 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Участковая ветеринарная лечебница Калининская" },"geometry": {"type": "Point","coordinates": [ 39.020288 , 45.078158 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Большая медведица" },"geometry": {"type": "Point","coordinates": [ 39.011815 , 45.022327 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника АКСИНЬЯ" },"geometry": {"type": "Point","coordinates": [ 39.023385 , 45.040342 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Воля" },"geometry": {"type": "Point","coordinates": [ 39.000918 , 45.156730 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная центр Питомец" },"geometry": {"type": "Point","coordinates": [ 39.000758 , 45.037639 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Друг" },"geometry": {"type": "Point","coordinates": [ 39.020763 , 45.025055 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Собачье Сердце" },"geometry": {"type": "Point","coordinates": [ 39.038875 , 45.025588 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветклиника на Монтажников" },"geometry": {"type": "Point","coordinates": [ 38.967098 , 45.060182 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Весниной Зинаиды Юрьевны" },"geometry": {"type": "Point","coordinates": [ 38.994002 , 45.141508 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветврач" },"geometry": {"type": "Point","coordinates": [ 38.982026 , 45.048500 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Спасатель" },"geometry": {"type": "Point","coordinates": [ 39.011612 , 45.063804 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника ДОВЕРИЕ" },"geometry": {"type": "Point","coordinates": [ 38.920194 , 45.032970 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Слон" },"geometry": {"type": "Point","coordinates": [ 38.913472 , 45.029149 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарный центр For Pets" },"geometry": {"type": "Point","coordinates": [ 38.958933 , 45.022943 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Пет-Сервис" },"geometry": {"type": "Point","coordinates": [ 38.991797 , 45.062153 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника и зоомагазин Зверополис" },"geometry": {"type": "Point","coordinates": [ 38.965249 , 45.125150 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Айболит" },"geometry": {"type": "Point","coordinates": [ 39.039560 , 45.010589 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Зоолэнд" },"geometry": {"type": "Point","coordinates": [ 39.020910 , 45.078003 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Друг" },"geometry": {"type": "Point","coordinates": [ 39.076642 , 45.012963 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Какаду" },"geometry": {"type": "Point","coordinates": [ 39.028409 , 45.050224 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника КрыльяЛапыХвост" },"geometry": {"type": "Point","coordinates": [ 38.977344 , 45.097552 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Вита" },"geometry": {"type": "Point","coordinates": [ 39.089252 , 45.035759 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарный Центр" },"geometry": {"type": "Point","coordinates": [ 39.025080 , 45.070546 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Виквет" },"geometry": {"type": "Point","coordinates": [ 39.008302 , 45.065521 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника и аптека Ева" },"geometry": {"type": "Point","coordinates": [ 39.005567 , 45.120858 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Ветеринарная клиника Dобрый Dоктор" },"geometry": {"type": "Point","coordinates": [ 38.932746 , 45.062180 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Зоомагазин Bonnifacii.ru" },"geometry": {"type": "Point","coordinates": [ 38.991975 , 45.141613 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Зоомагазин Кормоглот.ру" },"geometry": {"type": "Point","coordinates": [ 39.000044 , 45.127046 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Зоомагазин Природа" },"geometry": {"type": "Point","coordinates": [ 38.983343 , 45.101701 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Зоомагазин" },"geometry": {"type": "Point","coordinates": [ 38.981609 , 45.043880 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Зоомагазин Айболит" },"geometry": {"type": "Point","coordinates": [ 39.039560 , 45.010589 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Приют Краснодог" },"geometry": {"type": "Point","coordinates": [ 39.009883 , 45.030398 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Центр Помощи Животным" },"geometry": {"type": "Point","coordinates": [ 38.910628 , 45.026417 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Гостиница для животных Кошкин дом" },"geometry": {"type": "Point","coordinates": [ 38.919053 , 45.051227 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Гостиница для кошек КОТОФЕЙ" },"geometry": {"type": "Point","coordinates": [ 38.994043 , 45.242838 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Тимошка" },"geometry": {"type": "Point","coordinates": [ 38.989360 , 45.065015 ] }},  
+        
+        {"type": "Feature","properties": {"name": "Гостиница для животных Айболит" },"geometry": {"type": "Point","coordinates": [ 39.039560 , 45.010589 ] }}
     
     
     ]
