@@ -1,4 +1,6 @@
 import folium
+from folium import plugins
+from folium.plugins import Search
 import openpyxl
 import json
 import os
@@ -56,10 +58,16 @@ for i in range(2,8):
 #Формирование границы             
 folium.GeoJson(border, name = 'Krasnodar').add_to(m)
 
-<<<<<<< HEAD
-print('ILT')
+#Поисковик
+with open('searcher.json', 'r', encoding='utf-8') as f:
+    FC = json.load(f)
 
-=======
->>>>>>> 002e390a419f507b2f48980cb06efebbf4bbd8a3
+geojson_obj = folium.GeoJson(FC).add_to(m)
+
+plugins.Search(geojson_obj,position='topleft',
+                           search_zoom=17,
+                           search_label='name',
+                           geom_type='Point').add_to(m)
+
 m.save("m.html")
 

@@ -1,0 +1,22 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {"type": "Feature","properties": {"name": "Vet" },"geometry": {"type": "Point","coordinates": [38.937515, 45.113834 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника ВетПомощь" },"geometry": {"type": "Point","coordinates": [ 45.038740 , 38.963058 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Лапа Помощи\"" },"geometry": {"type": "Point","coordinates": [ 45.067518 , 38.958300 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Доверие\"" },"geometry": {"type": "Point","coordinates": [ 45.080308 , 38.976254 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"Друг\"" },"geometry": {"type": "Point","coordinates": [ 45.072789 , 38.976773 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"ВитВет\"" },"geometry": {"type": "Point","coordinates": [ 45.072235 , 38.982009 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника \"ДЖиМ\"" },"geometry": {"type": "Point","coordinates": [ 45.088839 , 38.979097 ] }},  
+    
+    {"type": "Feature","properties": {"name": "Ветеринарная клиника"  },"geometry": {"type": "Point","coordinates": [ 45.044368 , 38.931976 ] }}
+    
+    
+    ]
+    }
