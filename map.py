@@ -57,7 +57,12 @@ for i in range(2,8):
 
 #Формирование границы Краснодара
 border = os.path.join('Информация','border.json')            
-folium.GeoJson(border, name = 'Krasnodar').add_to(m)
+folium.GeoJson(border, name = 'Krasnodar', 
+               style_function = lambda feature: {
+                                        "fillColor": "#ffff00",
+                                        "color": "black",
+                                        "weight": 1.5,
+                                        "dashArray": "4, 4",}).add_to(m)
 
 #Поисковик
 with open('searcher.json', 'r', encoding = 'utf-8') as f:
