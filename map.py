@@ -35,7 +35,7 @@ for i in range(2,49):
 zoo = os.path.join('Icon','zoo.png')
 wb.active = 1
 sheet_one = wb.active
-for i in range(2,7):
+for i in range(2,8):
     zooIcon = folium.features.CustomIcon(zoo, icon_size=(30, 30))
     folium.Marker(location=[sheet_one['E'+str(i)].value, sheet_one['F'+str(i)].value],
     popup ='<strong>'+ sheet_one['A'+str(i)].value + '\nАдрес</strong>: ' + sheet_one['B'+str(i)].value + '\nТелефон:</strong>' + sheet_zero['D'+str(i)].value,
@@ -54,6 +54,35 @@ for i in range(2,8):
                   popup = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
                   tooltip = tooltip,
                   icon = priutIcon,).add_to(m)
+
+#Расстановка маркеров кафе, пиццерии и бары
+cafe = os.path.join('Icon','Cafe.png')
+wb.active = 3
+sheet_three = wb.active   
+for i in range(2,26):
+    cafeIcon = folium.features.CustomIcon(cafe, icon_size=(35, 35))
+    name = sheet_three['A'+str(i)].value
+    adds = sheet_three['B'+str(i)].value
+    tel = sheet_three['C'+str(i)].value
+    folium.Marker(location = [sheet_three['D'+str(i)].value, sheet_three['E'+str(i)].value],
+                  popup = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
+                  tooltip = tooltip,
+                  icon = cafeIcon,).add_to(m)
+
+#Парки
+park = os.path.join('Icon','park.png')
+wb.active = 4
+sheet_four = wb.active   
+for i in range(2,6):
+    parkIcon = folium.features.CustomIcon(park, icon_size=(30, 30))
+    name = sheet_four['A'+str(i)].value
+    adds = sheet_four['B'+str(i)].value
+    tel = sheet_four['C'+str(i)].value
+    folium.Marker(location = [sheet_four['D'+str(i)].value, sheet_four['E'+str(i)].value],
+                  popup = '<strong>'+name+'\nАдрес</strong>: '+adds+'\nТелефон:</strong>'+tel,
+                  tooltip = tooltip,
+                  icon = parkIcon,).add_to(m)
+    
 
 #Формирование границы Краснодара
 border = os.path.join('Информация','border.json')            
