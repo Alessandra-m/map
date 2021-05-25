@@ -1,3 +1,4 @@
+from typing import overload
 import folium
 from folium import plugins
 from folium.plugins import Search
@@ -9,7 +10,7 @@ import webbrowser
 
 #Создание карты 
 m = folium.Map(location=[45.0448, 38.976], zoom_start = 12)
-folium.TileLayer('cartodbpositron').add_to(m)
+
 
 #Загрузка данных 
 wb = openpyxl.reader.excel.load_workbook(filename="data.xlsx")
@@ -102,13 +103,13 @@ geojson_obj = folium.GeoJson(FC, name = "Poisk", show = False).add_to(m)
 plugins.Search(geojson_obj,position = 'topleft',
                            search_zoom = 17,
                            search_label = 'name',
-                           geom_type = 'Point',).add_to(m)
+                           geom_type = 'Point',
+                           ).add_to(m)
 
 #Контроль уровней
-folium.LayerControl().add_to(m)
-
+folium.LayerControl(hideSingleBase = True).add_to(m)
 #Геолокация
-plugins.LocateControl(auto_start=True).add_to(m)
+plugins.LocateControl(auto_start=True, setView = 10).add_to(m)
 
 m.save("m.html")
 webbrowser.open("m.html")
